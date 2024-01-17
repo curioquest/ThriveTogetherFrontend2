@@ -60,16 +60,16 @@ function MainApp() {
             {location.pathname !== "/" && <Nav />}
             <main className="main-content">
               <Routes>
-                <Route exact path="/login" element={<LoginForm />}></Route>
-                <Route exact path="/register" element={<AccountForm />}></Route>
-                <Route exact path="/inbox" element={<InboxPage />}></Route>
-                <Route exact path="/peers" element={<PeerList />}></Route>
-                <Route exact path="/connections" element={<PeerButton />}></Route>
-                <Route exact path="/matches" element={<MatchView />}></Route>
-                <Route exact path="/info" element={<AccountInfo />}></Route>
-                <Route exact path="/update" element={<AccountUpdate />}></Route>
-                <Route exact path="/edit_tags" element={<EditTags />}></Route>
-                <Route exact path="/peer_connections" element={<PeerConnectionList />}></Route>
+                <Route exact path="/login" element={<LoginForm />} />
+                <Route exact path="/register" element={<AccountForm />} />
+                <Route exact path="/inbox" element={<InboxPage />} />
+                <Route exact path="/peers" element={<PeerList />} />
+                <Route exact path="/connections" element={<PeerButton />} />
+                <Route exact path="/matches" element={<MatchView />} />
+                <Route exact path="/info" element={<AccountInfo />} />
+                <Route exact path="/update" element={<AccountUpdate />} />
+                <Route exact path="/edit_tags" element={<EditTags />} />
+                <Route exact path="/peer_connections" element={<PeerConnectionList />} />
               </Routes>
               {/* <ErrorNotification error={error} /> */}
 
